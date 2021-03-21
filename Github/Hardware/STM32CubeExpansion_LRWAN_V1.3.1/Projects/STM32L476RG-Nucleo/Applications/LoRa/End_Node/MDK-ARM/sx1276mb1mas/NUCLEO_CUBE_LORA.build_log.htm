@@ -1,0 +1,62 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.28.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: rq Fantasticboy, Hewlett-Packard, LIC=X1E45-GBWHX-RF4IZ-JQCP8-73GTM-HFM9Q
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.28.0.0
+Toolchain Path:  D:\Keli\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.28.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.6.0
+Dialog DLL:      TCM.DLL V1.36.2.0
+ 
+<h2>Project:</h2>
+D:\Work\Project\Github\Hardware\STM32CubeExpansion_LRWAN_V1.3.1\Projects\STM32L476RG-Nucleo\Applications\LoRa\End_Node\MDK-ARM\Lora.uvprojx
+Project File Date:  03/09/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Keli\ARM\ARMCC\Bin'
+Build target 'sx1276mb1mas'
+compiling vcom.c...
+..\LoRaWAN\App\src\vcom.c(151): error:  #20: identifier "DMA1_Channel4_5_6_7_IRQn" is undefined
+    HAL_NVIC_SetPriority(USARTx_DMA_TX_IRQn, USARTx_Priority, 1);
+..\LoRaWAN\App\src\vcom.c(186): error:  #20: identifier "DMA1_Channel4_5_6_7_IRQn" is undefined
+    HAL_NVIC_DisableIRQ(USARTx_DMA_TX_IRQn);
+..\LoRaWAN\App\src\vcom.c: 0 warnings, 2 errors
+compiling main.c...
+..\LoRaWAN\App\src\main.c(408): warning:  #550-D: variable "latitude"  was set but never used
+    int32_t latitude, longitude = 0;
+..\LoRaWAN\App\src\main.c(408): warning:  #550-D: variable "longitude"  was set but never used
+    int32_t latitude, longitude = 0;
+..\LoRaWAN\App\src\main.c(409): warning:  #177-D: variable "altitudeGps"  was declared but never referenced
+    uint16_t altitudeGps = 0;
+..\LoRaWAN\App\src\main.c: 3 warnings, 0 errors
+".\sx1276mb1mas\NUCLEO_CUBE_LORA.axf" - 2 Error(s), 3 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32L4xx_DFP.2.3.0.pack
+                Keil.STM32L4xx_DFP.2.3.0
+                STMicroelectronics STM32L4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_sx1276mb1mas
+  C:\Users\Fantasticboy\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:13
+</pre>
+</body>
+</html>

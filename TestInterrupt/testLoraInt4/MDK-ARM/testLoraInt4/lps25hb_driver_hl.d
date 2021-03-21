@@ -1,0 +1,10 @@
+testloraint4\lps25hb_driver_hl.o: ..\BSP\Components\lps25hb\LPS25HB_Driver_HL.c
+testloraint4\lps25hb_driver_hl.o: ..\BSP\Components\lps25hb\LPS25HB_Driver_HL.h
+testloraint4\lps25hb_driver_hl.o: ../BSP/Components/Common/pressure.h
+testloraint4\lps25hb_driver_hl.o: ../BSP/Components/Common/sensor.h
+testloraint4\lps25hb_driver_hl.o: D:\Keli\ARM\ARMCC\Bin\..\include\string.h
+testloraint4\lps25hb_driver_hl.o: ../BSP/Components/Common/component.h
+testloraint4\lps25hb_driver_hl.o: D:\Keli\ARM\ARMCC\Bin\..\include\stdint.h
+testloraint4\lps25hb_driver_hl.o: ../BSP/Components/Common/temperature.h
+testloraint4\lps25hb_driver_hl.o: ..\BSP\Components\lps25hb\LPS25HB_Driver.h
+testloraint4\lps25hb_driver_hl.o: D:\Keli\ARM\ARMCC\Bin\..\include\math.h
